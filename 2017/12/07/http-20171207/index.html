@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="Awesome · U">
 <meta property="og:description" content="HTTP与HTTPS HTTP（超文本传输协议）是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接HTTPS（基于SSL的HTTP协议）通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-08T00:31:31.448Z">
+<meta property="og:updated_time" content="2017-12-08T00:37:09.302Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HTTP与HTTPS">
 <meta name="twitter:description" content="HTTP与HTTPS HTTP（超文本传输协议）是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接HTTPS（基于SSL的HTTP协议）通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换。">
@@ -410,7 +410,7 @@
 <p><strong>HTTP（超文本传输协议）</strong>是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接<br><strong>HTTPS（基于SSL的HTTP协议）</strong>通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换。</p>
 </blockquote>
 <a id="more"></a>
-<h5 id="HTTP-工作流程，首先了解下网络层协议"><a href="#HTTP-工作流程，首先了解下网络层协议" class="headerlink" title="HTTP 工作流程，首先了解下网络层协议"></a>HTTP 工作流程，首先了解下网络层协议</h5><blockquote>
+<h4 id="HTTP-工作流程，首先了解下网络层协议"><a href="#HTTP-工作流程，首先了解下网络层协议" class="headerlink" title="HTTP 工作流程，首先了解下网络层协议"></a>HTTP 工作流程，首先了解下网络层协议</h4><blockquote>
 <p> 给予传输层http协议的，在http开始传输之前，首先要建立TCP连接，之后才开始http传输。</p>
 </blockquote>
 <ul>
@@ -419,14 +419,14 @@
 <li>服务器收到请求后，给予响应的响应信息</li>
 <li>客户端收到服务器返回的信息后通过浏览器显示给用户，客户机与服务器断开连接</li>
 </ul>
-<h5 id="HTTP-特点"><a href="#HTTP-特点" class="headerlink" title="HTTP 特点"></a>HTTP 特点</h5><ul>
+<h4 id="HTTP-特点"><a href="#HTTP-特点" class="headerlink" title="HTTP 特点"></a>HTTP 特点</h4><ul>
 <li>支持客户/服务器模式。</li>
 <li>简单快速：客户向服务器请求服务时，只需传送请求方法和路径。请求方法常用的有GET、HEAD、POST。每种方法规定了客户与服务器联系的类型不同。</li>
 <li>灵活：HTTP允许传输任意类型的数据对象。正在传输的类型由Content-Type加以标记。</li>
 <li>无连接：无连接的含义是限制每次连接只处理一个请求。服务器处理完客户的请求，并收到客户的应答后，即断开连接。因此可以节省大量传输时间。</li>
 <li>无状态：HTTP协议是无状态协议。无状态是指协议对于事务处理没有记忆能力。</li>
 </ul>
-<h5 id="HTTP-URL"><a href="#HTTP-URL" class="headerlink" title="HTTP URL"></a>HTTP URL</h5><p>HTTP是一个基于请求与响应模式的、无状态的、应用层的协议，常基于TCP的连接方式。HTTP URL是一种特殊类型的URI<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://host[&quot;:&quot;port][abs_path]</span><br></pre></td></tr></table></figure></p>
+<h4 id="HTTP-URL"><a href="#HTTP-URL" class="headerlink" title="HTTP URL"></a>HTTP URL</h4><p>HTTP是一个基于请求与响应模式的、无状态的、应用层的协议，常基于TCP的连接方式。HTTP URL是一种特殊类型的URI<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://host[&quot;:&quot;port][abs_path]</span><br></pre></td></tr></table></figure></p>
 <table>
 <thead>
 <tr>
@@ -445,7 +445,7 @@
 </tr>
 </tbody>
 </table>
-<h5 id="HTTP-请求"><a href="#HTTP-请求" class="headerlink" title="HTTP 请求"></a>HTTP 请求</h5><p>http请求由三部分组成：请求行、消息报头、请求正文<br>请求行以一个方法符号开头，以空格分开，后面跟着请求的URI和协议的版本，格式如下：<strong>Method Request-URI HTTP-Version CRLF</strong><br>其中 Method表示请求方法；Request-URI是一个统一资源标识符；HTTP-Version表示请求的HTTP协议版本；CRLF表示回车和换行（除了作为结尾的CRLF外，不允许出现单独的CR或LF字符）。</p>
+<h4 id="HTTP-请求"><a href="#HTTP-请求" class="headerlink" title="HTTP 请求"></a>HTTP 请求</h4><p>http请求由三部分组成：请求行、消息报头、请求正文<br>请求行以一个方法符号开头，以空格分开，后面跟着请求的URI和协议的版本，格式如下：<strong>Method Request-URI HTTP-Version CRLF</strong><br>其中 Method表示请求方法；Request-URI是一个统一资源标识符；HTTP-Version表示请求的HTTP协议版本；CRLF表示回车和换行（除了作为结尾的CRLF外，不允许出现单独的CR或LF字符）。</p>
 <ul>
 <li>HTTP1.0定义了三种请求方法： GET, POST 和 HEAD方法。</li>
 <li>HTTP1.1新增了五种请求方法：OPTIONS, PUT, DELETE, TRACE 和 CONNECT 方法。</li>
@@ -462,9 +462,9 @@
 <li>POST比GET安全，当数据是中文或者不敏感的数据，则用get，因为使用get，参数会显示在地址，对于敏感数据和不是中文字符的数据，则用post。</li>
 <li>POST请求不会被缓存，不会保留在浏览器历史记录中，也不能被收藏为书签。</li>
 </ul>
-<h5 id="HTTP-响应"><a href="#HTTP-响应" class="headerlink" title="HTTP 响应"></a>HTTP 响应</h5><p>HTTP响应也是由三个部分组成：状态行、消息报头、响应正文，格式如下：<strong>HTTP-Version Status-Code Reason-Phrase CRLF</strong><br>常见状态码：</p>
+<h4 id="HTTP-响应"><a href="#HTTP-响应" class="headerlink" title="HTTP 响应"></a>HTTP 响应</h4><p>HTTP响应也是由三个部分组成：状态行、消息报头、响应正文，格式如下：<strong>HTTP-Version Status-Code Reason-Phrase CRLF</strong><br>常见状态码：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">200 OK  //客户端请求成功</span><br><span class="line">400 Bad Request  //客户端请求有语法错误，不能被服务器所理解</span><br><span class="line">401 Unauthorized //请求未经授权，这个状态代码必须和WWW-Authenticate报 //头域一起使用</span><br><span class="line">403 Forbidden  //服务器收到请求，但是拒绝提供服务</span><br><span class="line">404 Not Found  //请求资源不存在，eg：输入了错误的URL</span><br><span class="line">500 Internal Server Error //服务器发生不可预期的错误</span><br><span class="line">503 Server Unavailable  //服务器当前不能处理客户端的请求，一段时间后,可能恢复正常</span><br></pre></td></tr></table></figure>
-<h5 id="HTTP-报头"><a href="#HTTP-报头" class="headerlink" title="HTTP 报头"></a>HTTP 报头</h5><p>HTTP消息由客户端到服务器的请求和服务器到客户端的响应组成。</p>
+<h4 id="HTTP-报头"><a href="#HTTP-报头" class="headerlink" title="HTTP 报头"></a>HTTP 报头</h4><p>HTTP消息由客户端到服务器的请求和服务器到客户端的响应组成。</p>
 <ul>
 <li><p>普通报头</p>
 <ul>
@@ -484,7 +484,7 @@
 </ul>
 </li>
 </ul>
-<h5 id="HTTPS协议"><a href="#HTTPS协议" class="headerlink" title="HTTPS协议"></a>HTTPS协议</h5><p>HTTPS与WEB服务器通信时有以下几个步骤：</p>
+<h4 id="HTTPS协议"><a href="#HTTPS协议" class="headerlink" title="HTTPS协议"></a>HTTPS协议</h4><p>HTTPS与WEB服务器通信时有以下几个步骤：</p>
 <ul>
 <li>客户使用https的URL访问Web服务器，要求与Web服务器建立SSL连接。</li>
 <li>Web服务器收到客户端请求后，会将网站的证书信息（证书中包含公钥）传送一份给客户端。</li>
@@ -725,7 +725,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP与HTTPS"><span class="nav-number">1.</span> <span class="nav-text">HTTP与HTTPS</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP-工作流程，首先了解下网络层协议"><span class="nav-number">1.0.1.</span> <span class="nav-text">HTTP 工作流程，首先了解下网络层协议</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP-特点"><span class="nav-number">1.0.2.</span> <span class="nav-text">HTTP 特点</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP-URL"><span class="nav-number">1.0.3.</span> <span class="nav-text">HTTP URL</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP-请求"><span class="nav-number">1.0.4.</span> <span class="nav-text">HTTP 请求</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP-响应"><span class="nav-number">1.0.5.</span> <span class="nav-text">HTTP 响应</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTP-报头"><span class="nav-number">1.0.6.</span> <span class="nav-text">HTTP 报头</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#HTTPS协议"><span class="nav-number">1.0.7.</span> <span class="nav-text">HTTPS协议</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP与HTTPS"><span class="nav-number">1.</span> <span class="nav-text">HTTP与HTTPS</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-工作流程，首先了解下网络层协议"><span class="nav-number">1.1.</span> <span class="nav-text">HTTP 工作流程，首先了解下网络层协议</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-特点"><span class="nav-number">1.2.</span> <span class="nav-text">HTTP 特点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-URL"><span class="nav-number">1.3.</span> <span class="nav-text">HTTP URL</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-请求"><span class="nav-number">1.4.</span> <span class="nav-text">HTTP 请求</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-响应"><span class="nav-number">1.5.</span> <span class="nav-text">HTTP 响应</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-报头"><span class="nav-number">1.6.</span> <span class="nav-text">HTTP 报头</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTPS协议"><span class="nav-number">1.7.</span> <span class="nav-text">HTTPS协议</span></a></li></ol></li></ol></div>
             
 
           </div>
