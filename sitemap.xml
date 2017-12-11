@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://asyncblog.top/hello-world.html</loc>
+    
+    <lastmod>2017-12-11T02:15:46.490Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://asyncblog.top/webpack-20171208.html</loc>
     
     <lastmod>2017-12-08T00:39:01.802Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://asyncblog.top/about/index.html</loc>
     
     <lastmod>2017-12-05T09:00:17.782Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://asyncblog.top/hello-world.html</loc>
-    
-    <lastmod>2017-12-05T08:26:15.147Z</lastmod>
     
   </url>
   
