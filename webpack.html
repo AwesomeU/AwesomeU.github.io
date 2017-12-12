@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="HTTP,HTTPS," />
+  <meta name="keywords" content="Webpack," />
 
 
 
@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="HTTP与HTTPS HTTP（超文本传输协议）是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接HTTPS（基于SSL的HTTP协议）通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换">
-<meta name="keywords" content="HTTP,HTTPS">
+<meta name="description" content="Webpack 一觉醒来，2017年的第一场雪，想起去年的第一场雪，应该还在北京吧，北京的小伙伴们，你们还好吗 Webpack可以看做是模块打包机：分析我们的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言，并将其打包为合适的格式以供浏览器使用。">
+<meta name="keywords" content="Webpack">
 <meta property="og:type" content="article">
-<meta property="og:title" content="HTTP与HTTPS">
-<meta property="og:url" content="http://asyncblog.top/http-20171207.html">
+<meta property="og:title" content="Webpack初探">
+<meta property="og:url" content="http://asyncblog.top/webpack.html">
 <meta property="og:site_name" content="Awesome · U">
-<meta property="og:description" content="HTTP与HTTPS HTTP（超文本传输协议）是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接HTTPS（基于SSL的HTTP协议）通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换。">
+<meta property="og:description" content="Webpack 一觉醒来，2017年的第一场雪，想起去年的第一场雪，应该还在北京吧，北京的小伙伴们，你们还好吗 Webpack可以看做是模块打包机：分析我们的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言，并将其打包为合适的格式以供浏览器使用。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-08T00:38:28.364Z">
+<meta property="og:updated_time" content="2017-12-08T00:39:01.802Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HTTP与HTTPS">
-<meta name="twitter:description" content="HTTP与HTTPS HTTP（超文本传输协议）是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接HTTPS（基于SSL的HTTP协议）通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换。">
+<meta name="twitter:title" content="Webpack初探">
+<meta name="twitter:description" content="Webpack 一觉醒来，2017年的第一场雪，想起去年的第一场雪，应该还在北京吧，北京的小伙伴们，你们还好吗 Webpack可以看做是模块打包机：分析我们的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言，并将其打包为合适的格式以供浏览器使用。">
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://asyncblog.top/http-20171207.html"/>
+  <link rel="canonical" href="http://asyncblog.top/webpack.html"/>
 
 
 
 
 
-  <title>HTTP与HTTPS | Awesome · U</title>
+  <title>Webpack初探 | Awesome · U</title>
   
 
 
@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://asyncblog.top/http-20171207.html">
+    <link itemprop="mainEntityOfPage" href="http://asyncblog.top/webpack.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="async_M">
@@ -323,7 +323,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">HTTP与HTTPS</h2>
+          <h2 class="post-title" itemprop="name headline">Webpack初探</h2>
         
 
         <div class="post-meta">
@@ -335,8 +335,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-07T08:31:51+08:00">
-                2017-12-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-08T08:15:20+08:00">
+                2017-12-08
               </time>
             
 
@@ -358,8 +358,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/网络/" itemprop="url" rel="index">
-                    <span itemprop="name">网络</span>
+                  <a href="/categories/前端资源加载-打包/" itemprop="url" rel="index">
+                    <span itemprop="name">前端资源加载/打包</span>
                   </a>
                 </span>
 
@@ -375,7 +375,7 @@
 
           
           
-             <span id="/http-20171207.html" class="leancloud_visitors" data-flag-title="HTTP与HTTPS">
+             <span id="/webpack.html" class="leancloud_visitors" data-flag-title="Webpack初探">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -406,92 +406,55 @@
       
 
       
-        <h3 id="HTTP与HTTPS"><a href="#HTTP与HTTPS" class="headerlink" title="HTTP与HTTPS"></a>HTTP与HTTPS</h3><blockquote>
-<p><strong>HTTP（超文本传输协议）</strong>是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统，无状态、面向连接，使用TCP连接<br><strong>HTTPS（基于SSL的HTTP协议）</strong>通俗的说就是HTTP的升级版，使用不同于HTTP协议的默认端口及一个加密、身份验证，使用安全套接字SSL进行信息交换。</p>
+        <h3 id="Webpack"><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h3><blockquote>
+<p>一觉醒来，2017年的第一场雪，想起去年的第一场雪，应该还在北京吧，北京的小伙伴们，你们还好吗</p>
+<p>Webpack可以看做是模块打包机：分析我们的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言，并将其打包为合适的格式以供浏览器使用。</p>
 </blockquote>
 <a id="more"></a>
-<h4 id="HTTP-工作流程，首先了解下网络层协议"><a href="#HTTP-工作流程，首先了解下网络层协议" class="headerlink" title="HTTP 工作流程，首先了解下网络层协议"></a>HTTP 工作流程，首先了解下网络层协议</h4><blockquote>
-<p> 给予传输层http协议的，在http开始传输之前，首先要建立TCP连接，之后才开始http传输。</p>
-</blockquote>
+<h4 id="Webpack配置文件"><a href="#Webpack配置文件" class="headerlink" title="Webpack配置文件"></a>Webpack配置文件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">var webpack = require(&apos;webpack&apos;);</span><br><span class="line">var HtmlWebpackPlugin = require(&apos;html-webpack-plugin&apos;); //生成最终的Html5文件，自动引入打包后的文件</span><br><span class="line">var ExtractTextPlugin = require(&apos;extract-text-webpack-plugin&apos;); // 使用缓存</span><br><span class="line">module.exports = &#123;</span><br><span class="line">  devtool: &apos;eval-source-map&apos;,//配置生成Source Maps，选择合适的选项</span><br><span class="line">  entry: __dirname + &quot;/app/main.js&quot;,	//	唯一的入口文件</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: __dirname + &quot;/build&quot;,  // 打包后文件存放的地址</span><br><span class="line">    filename: &quot;[name]-[hash].js&quot;	// 打包生成的文件名</span><br><span class="line">  &#125;,</span><br><span class="line">  module: &#123;</span><br><span class="line">    loaders: [</span><br><span class="line">      &#123;</span><br><span class="line">        test: /\.json$/,</span><br><span class="line">        loader: &quot;json-loader&quot;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        test: /\.js$/,</span><br><span class="line">        exclude: /node_modules/,</span><br><span class="line">        loader: &apos;babel&apos; // 通过编译解析ES6/7未被浏览器支持的语言，及JS扩展的语言</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        test: /\.css$/,</span><br><span class="line">        loader: ExtractTextPlugin.extract(&apos;style&apos;, &apos;css?modules!postcss&apos;)</span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br><span class="line">  postcss: [</span><br><span class="line">    require(&apos;autoprefixer&apos;)</span><br><span class="line">  ],</span><br><span class="line">  plugins: [</span><br><span class="line">    new HtmlWebpackPlugin(&#123;</span><br><span class="line">      template: __dirname + &quot;/app/index.tmple.html&quot; // 定义文件名</span><br><span class="line">    &#125;),</span><br><span class="line">    new webpack.optimize.OccurenceOrderPlugin(),</span><br><span class="line">    new webpack.optimize.UglifyJsPlugin(),</span><br><span class="line">    new ExtractTextPlugin(&quot;[name]-[hash].css&quot;)</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="配置项说明"><a href="#配置项说明" class="headerlink" title="配置项说明"></a>配置项说明</h4><p>在项目根目录下创建 webpack.config.js</p>
 <ul>
-<li>首先客户机与服务器建立连接，即http请求正式开始</li>
-<li>建立连接后，客户机发送一个请求给服务器端</li>
-<li>服务器收到请求后，给予响应的响应信息</li>
-<li>客户端收到服务器返回的信息后通过浏览器显示给用户，客户机与服务器断开连接</li>
-</ul>
-<h4 id="HTTP-特点"><a href="#HTTP-特点" class="headerlink" title="HTTP 特点"></a>HTTP 特点</h4><ul>
-<li>支持客户/服务器模式。</li>
-<li>简单快速：客户向服务器请求服务时，只需传送请求方法和路径。请求方法常用的有GET、HEAD、POST。每种方法规定了客户与服务器联系的类型不同。</li>
-<li>灵活：HTTP允许传输任意类型的数据对象。正在传输的类型由Content-Type加以标记。</li>
-<li>无连接：无连接的含义是限制每次连接只处理一个请求。服务器处理完客户的请求，并收到客户的应答后，即断开连接。因此可以节省大量传输时间。</li>
-<li>无状态：HTTP协议是无状态协议。无状态是指协议对于事务处理没有记忆能力。</li>
-</ul>
-<h4 id="HTTP-URL"><a href="#HTTP-URL" class="headerlink" title="HTTP URL"></a>HTTP URL</h4><p>HTTP是一个基于请求与响应模式的、无状态的、应用层的协议，常基于TCP的连接方式。HTTP URL是一种特殊类型的URI<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://host[&quot;:&quot;port][abs_path]</span><br></pre></td></tr></table></figure></p>
-<table>
-<thead>
-<tr>
-<th>HTTP</th>
-<th style="text-align:center">host</th>
-<th>port</th>
-<th>abs_path</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>HTTP协议</td>
-<td style="text-align:center">合法的Internet主机域名或者IP地址</td>
-<td>端口号,为空则使用缺省端口80</td>
-<td>请求资源的URI,如果URL中没有给出abs_path，那么当它作为请求URI时浏览器自动以“/”的形式给出</td>
-</tr>
-</tbody>
-</table>
-<h4 id="HTTP-请求"><a href="#HTTP-请求" class="headerlink" title="HTTP 请求"></a>HTTP 请求</h4><p>http请求由三部分组成：请求行、消息报头、请求正文<br>请求行以一个方法符号开头，以空格分开，后面跟着请求的URI和协议的版本，格式如下：<strong>Method Request-URI HTTP-Version CRLF</strong><br>其中 Method表示请求方法；Request-URI是一个统一资源标识符；HTTP-Version表示请求的HTTP协议版本；CRLF表示回车和换行（除了作为结尾的CRLF外，不允许出现单独的CR或LF字符）。</p>
-<ul>
-<li>HTTP1.0定义了三种请求方法： GET, POST 和 HEAD方法。</li>
-<li>HTTP1.1新增了五种请求方法：OPTIONS, PUT, DELETE, TRACE 和 CONNECT 方法。</li>
-</ul>
-<blockquote>
-<p>各种方法的使用场景网上很多，这里不再过多赘述，只简单说一下最常用的get和post</p>
-</blockquote>
-<p>GET请求：</p>
-<ul>
-<li>用于从服务器请求数据，而且请求参数包含在Url之中。</li>
-<li>由于请求参数可见，所以敏感数据不应该用Get请求</li>
-<li>GET请求可被缓存，可保留在浏览器历史记录中，也可被收藏为书签。<br>POST请求：</li>
-<li>于提交数据到服务器，请求参数作为http消息的实际内容发送给web服务器。</li>
-<li>POST比GET安全，当数据是中文或者不敏感的数据，则用get，因为使用get，参数会显示在地址，对于敏感数据和不是中文字符的数据，则用post。</li>
-<li>POST请求不会被缓存，不会保留在浏览器历史记录中，也不能被收藏为书签。</li>
-</ul>
-<h4 id="HTTP-响应"><a href="#HTTP-响应" class="headerlink" title="HTTP 响应"></a>HTTP 响应</h4><p>HTTP响应也是由三个部分组成：状态行、消息报头、响应正文，格式如下：<strong>HTTP-Version Status-Code Reason-Phrase CRLF</strong><br>常见状态码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">200 OK  //客户端请求成功</span><br><span class="line">400 Bad Request  //客户端请求有语法错误，不能被服务器所理解</span><br><span class="line">401 Unauthorized //请求未经授权，这个状态代码必须和WWW-Authenticate报 //头域一起使用</span><br><span class="line">403 Forbidden  //服务器收到请求，但是拒绝提供服务</span><br><span class="line">404 Not Found  //请求资源不存在，eg：输入了错误的URL</span><br><span class="line">500 Internal Server Error //服务器发生不可预期的错误</span><br><span class="line">503 Server Unavailable  //服务器当前不能处理客户端的请求，一段时间后,可能恢复正常</span><br></pre></td></tr></table></figure>
-<h4 id="HTTP-报头"><a href="#HTTP-报头" class="headerlink" title="HTTP 报头"></a>HTTP 报头</h4><p>HTTP消息由客户端到服务器的请求和服务器到客户端的响应组成。</p>
-<ul>
-<li><p>普通报头</p>
-<ul>
-<li>普通报头中，有少数报头域用于所有的请求和响应消息，但并不用于被传输的实体，只用于传输的消息。</li>
-<li>Cache-Control 用于指定缓存指令，缓存指令是单向的（响应中出现的缓存指令在请求中未必会出现），且是独立的（一个消息的缓存指令不会影响另一个消息处理的缓存机制），HTTP1.0使用的类似的报头域为Pragma。</li>
+<li>entry：唯一的入口文件配置</li>
+<li>output：输出文件配置<ul>
+<li>path：打包文件存放的地址</li>
+<li>publicPath：为了引人cdn而统一改变打包文件的URL</li>
+<li>filename：设置打包文件的名字</li>
 </ul>
 </li>
-<li><p>请求报头</p>
-<ul>
-<li>Accept:指定客户端接受哪些类型的信息</li>
-<li>Accept-Charset:客户端接受的字符集</li>
-<li>Accept-Encoding:指定可接受的内容编码</li>
-<li>Accept-Language:指定一种自然语言</li>
-<li>Authorization:证明客户端有权查看某个资源</li>
-<li>Host:指定被请求资源的Internet主机和端口号</li>
-<li>User-Agent:记录客户端的登录情况，设备、浏览器和其他属性等。我们可以通过user-Agent来获取设备信息从而在后台进行不同的操作。</li>
+<li>devServer：构建本地服务器          <ul>
+<li>port:监听端口</li>
+<li>host:主机地址</li>
+<li>https:是否开启https</li>
+<li>hot:布尔值，表示增加HotModuleReplacementPlugin插件，且将服务器切换到热模式中</li>
+<li>quiet:布尔值，控制是否要在控制台输出所有信息</li>
+<li>contentBase:本地服务器所加载的页面所在的目录</li>
+<li>colors: 设置为true，使终端输出的文件为彩色</li>
+<li>inline:设置为true，当源文件改变时会自动刷新页面</li>
+<li>historyApiFallback:在开发单页应用时非常有用，它依赖于HTML5 history API，如果设置为true，所有的跳转将指向index.html</li>
+</ul>
+</li>
+<li>module <ul>
+<li>loaders<ul>
+<li>test:所处理的文件的拓展名的正则表达式** </li>
+<li>loader:loader的名称，但是现在已经不允许在配置loaders的loader关键字时省略后面的“-loader”后缀了，使用‘!’分隔不同的loader**</li>
+<li>include/exclude:添加必须处理的文件（文件夹）/屏蔽不需要处理的文件（文件夹)</li>
+<li>query:loader额外设置选项 如［‘es2015’］</li>
 </ul>
 </li>
 </ul>
-<h4 id="HTTPS协议"><a href="#HTTPS协议" class="headerlink" title="HTTPS协议"></a>HTTPS协议</h4><p>HTTPS与WEB服务器通信时有以下几个步骤：</p>
-<ul>
-<li>客户使用https的URL访问Web服务器，要求与Web服务器建立SSL连接。</li>
-<li>Web服务器收到客户端请求后，会将网站的证书信息（证书中包含公钥）传送一份给客户端。</li>
-<li>客户端的浏览器与Web服务器开始协商SSL连接的安全等级，也就是信息加密的等级。</li>
-<li>客户端的浏览器根据双方同意的安全等级，建立会话密钥，然后利用网站的公钥将会话密钥加密，并传送给网站。</li>
-<li>Web服务器利用自己的私钥解密出会话密钥。</li>
-<li>Web服务器利用会话密钥加密与客户端之间的通信。</li>
+</li>
+<li>plugins 拓展Webpack功能的插件<ul>
+<li>html-webpack-plugin:自动生成html页面，加载打包后的文件</li>
+<li>extract-text-webpack-plugin:提取代码中的css生成独立的css文件</li>
+<li>webpack.optimize.DedupePlugin:保证了重复的代码不被大包到bundle文件里面去</li>
+<li>webpack.optimize.UglifyJsPlugin：压缩JS代码</li>
+<li>webpack.optimize.OccurenceOrderPlugin:为组件分配Id</li>
+<li>ExtractTextPlugin(“[name]-[hash].css”)：缓存，把一个哈希值添加到打包文件中<ul>
+<li>devtool:生成sourceMap方便调试</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
       
@@ -539,9 +502,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/HTTP/" rel="tag"># HTTP</a>
-          
-            <a href="/tags/HTTPS/" rel="tag"># HTTPS</a>
+            <a href="/tags/Webpack/" rel="tag"># Webpack</a>
           
         </div>
       
@@ -554,8 +515,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/hello-world.html" rel="next" title="SCSS and Stylus">
-                <i class="fa fa-chevron-left"></i> SCSS and Stylus
+              <a href="/http.html" rel="next" title="HTTP与HTTPS">
+                <i class="fa fa-chevron-left"></i> HTTP与HTTPS
               </a>
             
           </div>
@@ -564,8 +525,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/webpack-20171208.html" rel="prev" title="Webpack初探">
-                Webpack初探 <i class="fa fa-chevron-right"></i>
+              <a href="/cors.html" rel="prev" title="CORS详解">
+                CORS详解 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -647,7 +608,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -658,7 +619,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -669,7 +630,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index-1.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -725,7 +686,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP与HTTPS"><span class="nav-number">1.</span> <span class="nav-text">HTTP与HTTPS</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-工作流程，首先了解下网络层协议"><span class="nav-number">1.1.</span> <span class="nav-text">HTTP 工作流程，首先了解下网络层协议</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-特点"><span class="nav-number">1.2.</span> <span class="nav-text">HTTP 特点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-URL"><span class="nav-number">1.3.</span> <span class="nav-text">HTTP URL</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-请求"><span class="nav-number">1.4.</span> <span class="nav-text">HTTP 请求</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-响应"><span class="nav-number">1.5.</span> <span class="nav-text">HTTP 响应</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP-报头"><span class="nav-number">1.6.</span> <span class="nav-text">HTTP 报头</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTPS协议"><span class="nav-number">1.7.</span> <span class="nav-text">HTTPS协议</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Webpack"><span class="nav-number">1.</span> <span class="nav-text">Webpack</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Webpack配置文件"><span class="nav-number">1.1.</span> <span class="nav-text">Webpack配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置项说明"><span class="nav-number">1.2.</span> <span class="nav-text">配置项说明</span></a></li></ol></li></ol></div>
             
 
           </div>

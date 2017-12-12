@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://asyncblog.top/cors.html</loc>
+    <lastmod>2017-12-12T06:32:56.907Z</lastmod>
+    <data>
+        <display>
+        <title>CORS详解</title>
+        <pubTime>2017-12-12T02:57:40.699Z</pubTime>
+        
+        <tag>CORS</tag>
+         
+         
+           
+             
+              <breadCrumb title="跨域资源共享" url="http://asyncblog.top/categories/%E8%B7%A8%E5%9F%9F%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://asyncblog.top/hello-world.html</loc>
     <lastmod>2017-12-11T02:15:46.490Z</lastmod>
     <data>
@@ -28,7 +48,7 @@
 
     
   <url>
-    <loc>http://asyncblog.top/webpack-20171208.html</loc>
+    <loc>http://asyncblog.top/webpack.html</loc>
     <lastmod>2017-12-08T00:39:01.802Z</lastmod>
     <data>
         <display>
@@ -48,7 +68,7 @@
 
     
   <url>
-    <loc>http://asyncblog.top/http-20171207.html</loc>
+    <loc>http://asyncblog.top/http.html</loc>
     <lastmod>2017-12-08T00:38:28.364Z</lastmod>
     <data>
         <display>

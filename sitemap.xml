@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://asyncblog.top/cors.html</loc>
+    
+    <lastmod>2017-12-12T06:32:56.907Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://asyncblog.top/hello-world.html</loc>
     
     <lastmod>2017-12-11T02:15:46.490Z</lastmod>
@@ -9,14 +16,14 @@
   </url>
   
   <url>
-    <loc>http://asyncblog.top/webpack-20171208.html</loc>
+    <loc>http://asyncblog.top/webpack.html</loc>
     
     <lastmod>2017-12-08T00:39:01.802Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://asyncblog.top/http-20171207.html</loc>
+    <loc>http://asyncblog.top/http.html</loc>
     
     <lastmod>2017-12-08T00:38:28.364Z</lastmod>
     
