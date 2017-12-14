@@ -4,12 +4,32 @@
 
     
   <url>
+    <loc>http://asyncblog.top/modularity.html</loc>
+    <lastmod>2017-12-14T05:22:27.186Z</lastmod>
+    <data>
+        <display>
+        <title>模块化开发</title>
+        <pubTime>2016-10-12T00:42:57.000Z</pubTime>
+        
+        <tag>require.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="模块化开发" url="http://asyncblog.top/categories/%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://asyncblog.top/cors.html</loc>
-    <lastmod>2017-12-12T06:32:56.907Z</lastmod>
+    <lastmod>2017-12-14T05:22:22.496Z</lastmod>
     <data>
         <display>
         <title>CORS详解</title>
-        <pubTime>2017-12-12T02:57:40.699Z</pubTime>
+        <pubTime>2016-07-12T00:42:57.000Z</pubTime>
         
         <tag>CORS</tag>
          

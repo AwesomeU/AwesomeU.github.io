@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://asyncblog.top/modularity.html</loc>
+    
+    <lastmod>2017-12-14T05:22:27.186Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://asyncblog.top/cors.html</loc>
     
-    <lastmod>2017-12-12T06:32:56.907Z</lastmod>
+    <lastmod>2017-12-14T05:22:22.496Z</lastmod>
     
   </url>
   
