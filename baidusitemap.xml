@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://asyncblog.top/promise.html</loc>
+    <lastmod>2017-12-25T06:13:43.681Z</lastmod>
+    <data>
+        <display>
+        <title>promise is a Promise</title>
+        <pubTime>2017-12-25T01:37:57.787Z</pubTime>
+        
+        <tag>promise</tag>
+         
+        <tag>异步</tag>
+         
+         
+           
+             
+              <breadCrumb title="异步请求" url="http://asyncblog.top/categories/%E5%BC%82%E6%AD%A5%E8%AF%B7%E6%B1%82/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://asyncblog.top/http.html</loc>
     <lastmod>2017-12-14T06:10:59.813Z</lastmod>
     <data>
