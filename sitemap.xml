@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://asyncblog.top/palaces.html</loc>
+    
+    <lastmod>2017-12-26T01:13:13.158Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://asyncblog.top/promise.html</loc>
     
     <lastmod>2017-12-25T06:13:43.681Z</lastmod>
