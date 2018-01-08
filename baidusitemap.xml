@@ -4,6 +4,50 @@
 
     
   <url>
+    <loc>http://asyncblog.top/bfc.html</loc>
+    <lastmod>2018-01-08T08:09:40.963Z</lastmod>
+    <data>
+        <display>
+        <title>BFC块级格式化上下文</title>
+        <pubTime>2017-12-28T06:06:49.033Z</pubTime>
+        
+        <tag>CSS</tag>
+         
+        <tag>Formatting context</tag>
+         
+         
+           
+             
+              <breadCrumb title="CSS" url="http://asyncblog.top/categories/CSS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://asyncblog.top/promise.html</loc>
+    <lastmod>2017-12-26T07:20:16.214Z</lastmod>
+    <data>
+        <display>
+        <title>promise is a Promise</title>
+        <pubTime>2017-12-25T01:37:57.787Z</pubTime>
+        
+        <tag>promise</tag>
+         
+        <tag>异步</tag>
+         
+         
+           
+             
+              <breadCrumb title="异步请求" url="http://asyncblog.top/categories/%E5%BC%82%E6%AD%A5%E8%AF%B7%E6%B1%82/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://asyncblog.top/palaces.html</loc>
     <lastmod>2017-12-26T02:34:11.711Z</lastmod>
     <data>
@@ -19,28 +63,6 @@
            
              
               <breadCrumb title="CSS" url="http://asyncblog.top/categories/CSS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://asyncblog.top/promise.html</loc>
-    <lastmod>2017-12-25T06:13:43.681Z</lastmod>
-    <data>
-        <display>
-        <title>promise is a Promise</title>
-        <pubTime>2017-12-25T01:37:57.787Z</pubTime>
-        
-        <tag>promise</tag>
-         
-        <tag>异步</tag>
-         
-         
-           
-             
-              <breadCrumb title="异步请求" url="http://asyncblog.top/categories/%E5%BC%82%E6%AD%A5%E8%AF%B7%E6%B1%82/"/>
           
         </display>
     </data>

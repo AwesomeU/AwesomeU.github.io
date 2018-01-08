@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="Awesome · U">
 <meta property="og:description" content="PromisePromise 对象是一个代理对象（代理一个值），被代理的值在Promise对象创建时可能是未知的。它允许你为异步操作的成功和失败分别绑定相应的处理方法（handlers）。 这让异步方法可以像同步方法那样返回值，但并不是立即返回最终执行结果，而是一个能代表未来出现的结果的promise对象. Promise有以下几种状态：  pending: 初始状态，不是成功或失败状态。 ful">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-25T06:13:43.681Z">
+<meta property="og:updated_time" content="2017-12-26T07:20:16.214Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="promise is a Promise">
 <meta name="twitter:description" content="PromisePromise 对象是一个代理对象（代理一个值），被代理的值在Promise对象创建时可能是未知的。它允许你为异步操作的成功和失败分别绑定相应的处理方法（handlers）。 这让异步方法可以像同步方法那样返回值，但并不是立即返回最终执行结果，而是一个能代表未来出现的结果的promise对象. Promise有以下几种状态：  pending: 初始状态，不是成功或失败状态。 ful">
@@ -413,6 +413,7 @@
 <li>fulfilled: 意味着操作成功完成。</li>
 <li>rejected: 意味着操作失败。</li>
 </ul>
+<a id="more"></a>
 <p>pending 状态的 Promise 对象可能触发fulfilled 状态并传递一个值给相应的状态处理方法，也可能触发失败状态（rejected）并传递失败信息。当其中任一种情况出现时，Promise 对象的 then 方法绑定的处理方法（handlers ）就会被调用（then方法包含两个参数：onfulfilled 和 onrejected，它们都是 Function 类型。当Promise状态为fulfilled时，调用 then 的 onfulfilled 方法，当Promise状态为rejected时，调用 then 的 onrejected 方法， 所以在异步操作的完成和绑定处理方法之间不存在竞争）。</p>
 <p>因为 Promise.prototype.then 和  Promise.prototype.catch 方法返回promise 对象， 所以它们可以被链式调用。</p>
 <h4 id="Promise语法"><a href="#Promise语法" class="headerlink" title="Promise语法"></a>Promise语法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">new Promise( function(resolve, reject) &#123;...&#125; /* executor */  );</span><br></pre></td></tr></table></figure>
@@ -494,6 +495,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/bfc.html" rel="prev" title="BFC块级格式化上下文">
+                BFC块级格式化上下文 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -573,7 +578,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -595,7 +600,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index-1.html">
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -671,7 +676,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
