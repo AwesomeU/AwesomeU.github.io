@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://asyncblog.top/bfc.html</loc>
+    <loc>http://asyncblog.top/chasingKites.html</loc>
     
-    <lastmod>2018-01-08T08:09:40.963Z</lastmod>
+    <lastmod>2018-02-12T05:37:48.717Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://asyncblog.top/promise.html</loc>
     
-    <lastmod>2017-12-26T07:20:16.214Z</lastmod>
+    <lastmod>2018-02-08T08:09:13.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://asyncblog.top/bfc.html</loc>
+    
+    <lastmod>2018-01-08T08:09:40.963Z</lastmod>
     
   </url>
   
