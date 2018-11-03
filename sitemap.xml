@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://asyncblog.top/webpack.html</loc>
+    
+    <lastmod>2018-11-03T03:08:16.080Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://asyncblog.top/table.html</loc>
+    
+    <lastmod>2018-03-07T07:48:22.130Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://asyncblog.top/chasingKites.html</loc>
     
     <lastmod>2018-02-12T05:37:48.717Z</lastmod>
@@ -54,13 +68,6 @@
     <loc>http://asyncblog.top/cors.html</loc>
     
     <lastmod>2017-12-14T05:22:22.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://asyncblog.top/webpack.html</loc>
-    
-    <lastmod>2017-12-08T00:39:01.802Z</lastmod>
     
   </url>
   

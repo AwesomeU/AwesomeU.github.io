@@ -4,6 +4,48 @@
 
     
   <url>
+    <loc>http://asyncblog.top/webpack.html</loc>
+    <lastmod>2018-11-03T03:08:16.080Z</lastmod>
+    <data>
+        <display>
+        <title>Webpack初探</title>
+        <pubTime>2017-12-08T00:15:20.875Z</pubTime>
+        
+        <tag>Webpack</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端资源加载/打包" url="http://asyncblog.top/categories/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD-%E6%89%93%E5%8C%85/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://asyncblog.top/table.html</loc>
+    <lastmod>2018-03-07T07:48:22.130Z</lastmod>
+    <data>
+        <display>
+        <title>不规则表格的实现</title>
+        <pubTime>2018-03-07T07:22:47.953Z</pubTime>
+        
+        <tag>Vue</tag>
+         
+        <tag>table</tag>
+         
+         
+           
+             
+              <breadCrumb title="Vue" url="http://asyncblog.top/categories/Vue/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://asyncblog.top/chasingKites.html</loc>
     <lastmod>2018-02-12T05:37:48.717Z</lastmod>
     <data>
@@ -169,26 +211,6 @@
            
              
               <breadCrumb title="跨域资源共享" url="http://asyncblog.top/categories/%E8%B7%A8%E5%9F%9F%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://asyncblog.top/webpack.html</loc>
-    <lastmod>2017-12-08T00:39:01.802Z</lastmod>
-    <data>
-        <display>
-        <title>Webpack初探</title>
-        <pubTime>2017-12-08T00:15:20.875Z</pubTime>
-        
-        <tag>Webpack</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端资源加载/打包" url="http://asyncblog.top/categories/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD-%E6%89%93%E5%8C%85/"/>
           
         </display>
     </data>
