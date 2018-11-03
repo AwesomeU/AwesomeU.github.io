@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="require.js进行模块化开发 拿了一堆胃药，心酸…… 我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状">
+<meta name="description" content="require.js进行模块化开发 我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状态，这被称为“阻塞效应”">
 <meta name="keywords" content="require.js">
 <meta property="og:type" content="article">
 <meta property="og:title" content="模块化开发">
 <meta property="og:url" content="http://asyncblog.top/modularity.html">
 <meta property="og:site_name" content="Awesome · U">
-<meta property="og:description" content="require.js进行模块化开发 拿了一堆胃药，心酸…… 我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状态，这被称为“阻塞效应”。html需要等head中所有的js和css加载完成后才">
+<meta property="og:description" content="require.js进行模块化开发 我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状态，这被称为“阻塞效应”。html需要等head中所有的js和css加载完成后才会开始绘制，但是html">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-14T05:22:27.186Z">
+<meta property="og:updated_time" content="2018-11-03T03:14:12.429Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="模块化开发">
-<meta name="twitter:description" content="require.js进行模块化开发 拿了一堆胃药，心酸…… 我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状态，这被称为“阻塞效应”。html需要等head中所有的js和css加载完成后才">
+<meta name="twitter:description" content="require.js进行模块化开发 我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状态，这被称为“阻塞效应”。html需要等head中所有的js和css加载完成后才会开始绘制，但是html">
 
 
 
@@ -407,7 +407,6 @@
 
       
         <h3 id="require-js进行模块化开发"><a href="#require-js进行模块化开发" class="headerlink" title="require.js进行模块化开发"></a>require.js进行模块化开发</h3><blockquote>
-<p>拿了一堆胃药，心酸……</p>
 <p>我们在编写html时引入JavaScript文件，如果随着项目越来越大，需要引入的JavaScript文件也会越来越多，我们知道浏览器的解析是自上而下执行的，如果外部脚本加载时间很长（比如一直无法完成下载），就会造成网页长时间失去响应，浏览器就会呈现“假死”状态，这被称为“阻塞效应”。<br>html需要等head中所有的js和css加载完成后才会开始绘制，但是html不需要等待放在body最后的js下载执行就会开始绘制,因此将js放在body的最后面，可以避免资源阻塞，同时使静态的html页面迅速显示。将脚本文件都放在网页尾部加载，还有一个<br>好处。在DOM结构生成之前就调用DOM，JavaScript会报错，如果脚本都在网页尾部加载，就不存在这个问题，因为这时DOM肯定已经生成了。</p>
 </blockquote>
 <a id="more"></a>
@@ -616,7 +615,7 @@
               
               
               <div class="site-state-item site-state-tags">
-                <a href="/tags/index-1.html">
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">标签</span>
                 </a>

@@ -4,6 +4,68 @@
 
     
   <url>
+    <loc>http://asyncblog.top/palaces.html</loc>
+    <lastmod>2018-11-03T03:14:12.439Z</lastmod>
+    <data>
+        <display>
+        <title>九宫格——自适应</title>
+        <pubTime>2016-06-22T00:32:36.000Z</pubTime>
+        
+        <tag>九宫格</tag>
+         
+        <tag>自适应</tag>
+         
+         
+           
+             
+              <breadCrumb title="CSS" url="http://asyncblog.top/categories/CSS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://asyncblog.top/modularity.html</loc>
+    <lastmod>2018-11-03T03:14:12.429Z</lastmod>
+    <data>
+        <display>
+        <title>模块化开发</title>
+        <pubTime>2016-10-12T00:42:57.000Z</pubTime>
+        
+        <tag>require.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="模块化开发" url="http://asyncblog.top/categories/%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://asyncblog.top/cors.html</loc>
+    <lastmod>2018-11-03T03:14:12.416Z</lastmod>
+    <data>
+        <display>
+        <title>CORS详解</title>
+        <pubTime>2016-07-12T00:42:57.000Z</pubTime>
+        
+        <tag>CORS</tag>
+         
+         
+           
+             
+              <breadCrumb title="跨域资源共享" url="http://asyncblog.top/categories/%E8%B7%A8%E5%9F%9F%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://asyncblog.top/webpack.html</loc>
     <lastmod>2018-11-03T03:08:16.080Z</lastmod>
     <data>
@@ -110,28 +172,6 @@
 
     
   <url>
-    <loc>http://asyncblog.top/palaces.html</loc>
-    <lastmod>2017-12-26T02:34:11.711Z</lastmod>
-    <data>
-        <display>
-        <title>九宫格——自适应</title>
-        <pubTime>2016-06-22T00:32:36.000Z</pubTime>
-        
-        <tag>九宫格</tag>
-         
-        <tag>自适应</tag>
-         
-         
-           
-             
-              <breadCrumb title="CSS" url="http://asyncblog.top/categories/CSS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://asyncblog.top/http.html</loc>
     <lastmod>2017-12-14T06:10:59.813Z</lastmod>
     <data>
@@ -171,46 +211,6 @@
            
              
               <breadCrumb title="CSS" url="http://asyncblog.top/categories/CSS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://asyncblog.top/modularity.html</loc>
-    <lastmod>2017-12-14T05:22:27.186Z</lastmod>
-    <data>
-        <display>
-        <title>模块化开发</title>
-        <pubTime>2016-10-12T00:42:57.000Z</pubTime>
-        
-        <tag>require.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="模块化开发" url="http://asyncblog.top/categories/%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://asyncblog.top/cors.html</loc>
-    <lastmod>2017-12-14T05:22:22.496Z</lastmod>
-    <data>
-        <display>
-        <title>CORS详解</title>
-        <pubTime>2016-07-12T00:42:57.000Z</pubTime>
-        
-        <tag>CORS</tag>
-         
-         
-           
-             
-              <breadCrumb title="跨域资源共享" url="http://asyncblog.top/categories/%E8%B7%A8%E5%9F%9F%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB/"/>
           
         </display>
     </data>
